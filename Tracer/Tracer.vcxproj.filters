@@ -15,15 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Singleton.h">
+    <ClInclude Include="Tracer_v2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracer_v3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracer_v1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracer.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Singleton.cpp">
+    <ClCompile Include="test_trace.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main_test.cpp">
+    <ClCompile Include="Tracer_v2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracer_v3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracer_v1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

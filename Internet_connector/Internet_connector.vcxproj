@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{4A1A156B-B6EB-4E9C-B612-0BCBD234DE63}</ProjectGuid>
-    <RootNamespace>Singleton</RootNamespace>
+    <ProjectGuid>{D0B1A08F-191B-4875-B6B5-E7E45DC17BE7}</ProjectGuid>
+    <RootNamespace>Internetconnector</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,11 +115,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Singleton.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main_test.cpp" />
-    <ClCompile Include="Singleton.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

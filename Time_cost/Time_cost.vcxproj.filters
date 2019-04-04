@@ -15,15 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Singleton.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Singleton.cpp">
+    <ClCompile Include="c_type.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main_test.cpp">
+    <ClCompile Include="c++_type.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{4A1A156B-B6EB-4E9C-B612-0BCBD234DE63}</ProjectGuid>
-    <RootNamespace>Singleton</RootNamespace>
+    <ProjectGuid>{D8BB9E03-729B-4CFE-886D-99C96B3AC8F6}</ProjectGuid>
+    <RootNamespace>Tracer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,11 +115,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="Tracer.h" />
+    <ClInclude Include="Tracer_v1.h" />
+    <ClInclude Include="Tracer_v2.h" />
+    <ClInclude Include="Tracer_v3.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main_test.cpp" />
-    <ClCompile Include="Singleton.cpp" />
+    <ClCompile Include="test_trace.cpp" />
+    <ClCompile Include="Tracer.cpp" />
+    <ClCompile Include="Tracer_v1.cpp" />
+    <ClCompile Include="Tracer_v2.cpp" />
+    <ClCompile Include="Tracer_v3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
